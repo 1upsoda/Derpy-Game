@@ -101,7 +101,7 @@ namespace Derpy_Game.Controller
             int randomBlue = (int)(myRandom.NextDouble() * 255);
             int randomGreen = (int)(myRandom.NextDouble() * 255);
 
-            Color randomColor = new Color(randomRed, randomGreen, randomBlue);
+            Color randomColor = new Color(randomRed, randomBlue, randomGreen);
             return randomColor;
         }
     }
